@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275583AF29F5BA3200BB3D79 /* BasicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275583AE29F5BA3200BB3D79 /* BasicAnimations.swift */; };
+		275583B129F5BA3200BB3D79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275583B029F5BA3200BB3D79 /* ContentView.swift */; };
+		275583B329F5BA3300BB3D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275583B229F5BA3300BB3D79 /* Assets.xcassets */; };
+		275583BD29F5BB2900BB3D79 /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275583BC29F5BB2900BB3D79 /* ParticleView.swift */; };
+		B826F0EA29F71E9500ED1547 /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826F0E929F71E9500ED1547 /* ChevronView.swift */; };
+		B826F0F429F768DF00ED1547 /* ChevronTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826F0F329F768DF00ED1547 /* ChevronTimelineView.swift */; };
+		B826F0F629F7695F00ED1547 /* AnimatingChevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826F0F529F7695F00ED1547 /* AnimatingChevron.swift */; };
+		B826F0FA29F8336A00ED1547 /* WaterLevelShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826F0F929F8336A00ED1547 /* WaterLevelShape.swift */; };
+		B826F0FC29F8338400ED1547 /* WaterLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B826F0FB29F8338400ED1547 /* WaterLevelView.swift */; };
+		B8D964612A009F1E00D32088 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964602A009F1E00D32088 /* ProgressView.swift */; };
+		B8D964632A009F6600D32088 /* ScaledMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964622A009F6600D32088 /* ScaledMovement.swift */; };
+		B8D964652A00A1FA00D32088 /* PolygonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964642A00A1FA00D32088 /* PolygonsView.swift */; };
+		B8D964672A00A20F00D32088 /* CutoutCornersRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964662A00A20F00D32088 /* CutoutCornersRect.swift */; };
+		B8D9646D2A00A44E00D32088 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D9646C2A00A44E00D32088 /* Polygon.swift */; };
+		B8D9646F2A00A4A500D32088 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D9646E2A00A4A500D32088 /* Chevron.swift */; };
+		B8D964732A00B0EA00D32088 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964722A00B0EA00D32088 /* CustomButton.swift */; };
+		B8D964752A00B6ED00D32088 /* ProgressLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964742A00B6ED00D32088 /* ProgressLabel.swift */; };
+		B8D964772A00B75B00D32088 /* ProgressViewArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964762A00B75B00D32088 /* ProgressViewArc.swift */; };
+		B8D964792A00B8B800D32088 /* CutOutCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D964782A00B8B800D32088 /* CutOutCornerRectangle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		275583AB29F5BA3200BB3D79 /* FunAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275583AE29F5BA3200BB3D79 /* BasicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations.swift; sourceTree = "<group>"; };
+		275583B029F5BA3200BB3D79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		275583B229F5BA3300BB3D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275583BC29F5BB2900BB3D79 /* ParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		B826F0E929F71E9500ED1547 /* ChevronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronView.swift; sourceTree = "<group>"; };
+		B826F0F329F768DF00ED1547 /* ChevronTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronTimelineView.swift; sourceTree = "<group>"; };
+		B826F0F529F7695F00ED1547 /* AnimatingChevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingChevron.swift; sourceTree = "<group>"; };
+		B826F0F929F8336A00ED1547 /* WaterLevelShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevelShape.swift; sourceTree = "<group>"; };
+		B826F0FB29F8338400ED1547 /* WaterLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLevelView.swift; sourceTree = "<group>"; };
+		B8D964602A009F1E00D32088 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		B8D964622A009F6600D32088 /* ScaledMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledMovement.swift; sourceTree = "<group>"; };
+		B8D964642A00A1FA00D32088 /* PolygonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonsView.swift; sourceTree = "<group>"; };
+		B8D964662A00A20F00D32088 /* CutoutCornersRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutoutCornersRect.swift; sourceTree = "<group>"; };
+		B8D9646C2A00A44E00D32088 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		B8D9646E2A00A4A500D32088 /* Chevron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
+		B8D964722A00B0EA00D32088 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B8D964742A00B6ED00D32088 /* ProgressLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLabel.swift; sourceTree = "<group>"; };
+		B8D964762A00B75B00D32088 /* ProgressViewArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewArc.swift; sourceTree = "<group>"; };
+		B8D964782A00B8B800D32088 /* CutOutCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutOutCornerRectangle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275583A829F5BA3200BB3D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275583A229F5BA3200BB3D79 = {
+			isa = PBXGroup;
+			children = (
+				275583AD29F5BA3200BB3D79 /* FunAnimations */,
+				275583AC29F5BA3200BB3D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		275583AC29F5BA3200BB3D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275583AB29F5BA3200BB3D79 /* FunAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275583AD29F5BA3200BB3D79 /* FunAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				275583AE29F5BA3200BB3D79 /* BasicAnimations.swift */,
+				275583B029F5BA3200BB3D79 /* ContentView.swift */,
+				B8D9646B2A00A3C300D32088 /* Shapes */,
+				B8D964692A00A36C00D32088 /* Views */,
+				B8D9647C2A00C0CF00D32088 /* Water Level */,
+				B8D964682A00A34E00D32088 /* Helpers */,
+				275583B229F5BA3300BB3D79 /* Assets.xcassets */,
+			);
+			path = FunAnimations;
+			sourceTree = "<group>";
+		};
+		B8D964682A00A34E00D32088 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B8D964722A00B0EA00D32088 /* CustomButton.swift */,
+				B8D964742A00B6ED00D32088 /* ProgressLabel.swift */,
+				B826F0E929F71E9500ED1547 /* ChevronView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B8D964692A00A36C00D32088 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B826F0F329F768DF00ED1547 /* ChevronTimelineView.swift */,
+				B8D964602A009F1E00D32088 /* ProgressView.swift */,
+				B8D964642A00A1FA00D32088 /* PolygonsView.swift */,
+				B8D964662A00A20F00D32088 /* CutoutCornersRect.swift */,
+				B8D964622A009F6600D32088 /* ScaledMovement.swift */,
+				B826F0F529F7695F00ED1547 /* AnimatingChevron.swift */,
+				275583BC29F5BB2900BB3D79 /* ParticleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8D9646B2A00A3C300D32088 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B8D9646C2A00A44E00D32088 /* Polygon.swift */,
+				B8D9646E2A00A4A500D32088 /* Chevron.swift */,
+				B8D964762A00B75B00D32088 /* ProgressViewArc.swift */,
+				B8D964782A00B8B800D32088 /* CutOutCornerRectangle.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		B8D9647C2A00C0CF00D32088 /* Water Level */ = {
+			isa = PBXGroup;
+			children = (
+				B826F0FB29F8338400ED1547 /* WaterLevelView.swift */,
+				B826F0F929F8336A00ED1547 /* WaterLevelShape.swift */,
+			);
+			path = "Water Level";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275583AA29F5BA3200BB3D79 /* FunAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275583B929F5BA3300BB3D79 /* Build configuration list for PBXNativeTarget "FunAnimations" */;
+			buildPhases = (
+				275583A729F5BA3200BB3D79 /* Sources */,
+				275583A829F5BA3200BB3D79 /* Frameworks */,
+				275583A929F5BA3200BB3D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunAnimations;
+			productName = FunAnimations;
+			productReference = 275583AB29F5BA3200BB3D79 /* FunAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275583A329F5BA3200BB3D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					275583AA29F5BA3200BB3D79 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 275583A629F5BA3200BB3D79 /* Build configuration list for PBXProject "FunAnimations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 275583A229F5BA3200BB3D79;
+			productRefGroup = 275583AC29F5BA3200BB3D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275583AA29F5BA3200BB3D79 /* FunAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275583A929F5BA3200BB3D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275583B329F5BA3300BB3D79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275583A729F5BA3200BB3D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275583BD29F5BB2900BB3D79 /* ParticleView.swift in Sources */,
+				B8D964652A00A1FA00D32088 /* PolygonsView.swift in Sources */,
+				B826F0FA29F8336A00ED1547 /* WaterLevelShape.swift in Sources */,
+				B8D964752A00B6ED00D32088 /* ProgressLabel.swift in Sources */,
+				B826F0F629F7695F00ED1547 /* AnimatingChevron.swift in Sources */,
+				B8D964732A00B0EA00D32088 /* CustomButton.swift in Sources */,
+				275583B129F5BA3200BB3D79 /* ContentView.swift in Sources */,
+				B826F0EA29F71E9500ED1547 /* ChevronView.swift in Sources */,
+				B8D964672A00A20F00D32088 /* CutoutCornersRect.swift in Sources */,
+				B826F0F429F768DF00ED1547 /* ChevronTimelineView.swift in Sources */,
+				B826F0FC29F8338400ED1547 /* WaterLevelView.swift in Sources */,
+				B8D964772A00B75B00D32088 /* ProgressViewArc.swift in Sources */,
+				B8D9646D2A00A44E00D32088 /* Polygon.swift in Sources */,
+				B8D964612A009F1E00D32088 /* ProgressView.swift in Sources */,
+				B8D9646F2A00A4A500D32088 /* Chevron.swift in Sources */,
+				B8D964792A00B8B800D32088 /* CutOutCornerRectangle.swift in Sources */,
+				275583AF29F5BA3200BB3D79 /* BasicAnimations.swift in Sources */,
+				B8D964632A009F6600D32088 /* ScaledMovement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		275583B729F5BA3300BB3D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		275583B829F5BA3300BB3D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275583BA29F5BA3300BB3D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunAnimations/Preview Content\"";
+				DEVELOPMENT_TEAM = GVKK7BHHAM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bidisha.FunAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		275583BB29F5BA3300BB3D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunAnimations/Preview Content\"";
+				DEVELOPMENT_TEAM = GVKK7BHHAM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bidisha.FunAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275583A629F5BA3200BB3D79 /* Build configuration list for PBXProject "FunAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275583B729F5BA3300BB3D79 /* Debug */,
+				275583B829F5BA3300BB3D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275583B929F5BA3300BB3D79 /* Build configuration list for PBXNativeTarget "FunAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275583BA29F5BA3300BB3D79 /* Debug */,
+				275583BB29F5BA3300BB3D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275583A329F5BA3200BB3D79 /* Project object */;
+}
